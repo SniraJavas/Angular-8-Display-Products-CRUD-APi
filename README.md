@@ -13,9 +13,10 @@
  # Launch proccess.
  -  Run the above mentioned script on on the link in line 4.
  -  Get the connection string from data source and plave in in your appsettings json file that can be found at your root file.
-    "AllowedHosts": "*",
-    
+   
  - How my conn string looked like : 
+ 
+    "AllowedHosts": "*",
     "ConnectionStrings": {
     "WebApiDataOrbisContext": " ---"
   }
