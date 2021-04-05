@@ -13,5 +13,12 @@
  # Launch proccess.
  -  Run the above mentioned script on on the link in line 4.
  -  Get the connection string from data source and plave in in your appsettings json file that can be found at your root file.
+    "AllowedHosts": "*",
+    
+ - How my conn string looked like : 
+    "ConnectionStrings": {
+    "WebApiDataOrbisContext": " ---"
+  }
+  
  -  should you connect them both and start running them on the same machine with your Angular app they start to interact. 
  -  NB : ensure the port number are on their default i.e 4200 for FE and  44385 BE
